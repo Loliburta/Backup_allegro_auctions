@@ -5,7 +5,7 @@ import sqlite3
 from datetime import datetime
 import time
 
-conn = sqlite3.connect("RybieUdko_Aukcje_Allegro.db")
+conn = sqlite3.connect("database_name.db")
 cur = conn.cursor()
 
 
